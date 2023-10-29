@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.piano-roll {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.piano-roll:hover {
+    transform: scale(1.05);
+}
+
+.main-piano-roll {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.list-display {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: scroll;
+}
+
+.selection-overlay {
+    position: absolute;
+    background-color: rgba(0, 119, 255, 0.2);
+    border: 2px dashed #0077FF;
+    pointer-events: none;
+    display: none;
+}
