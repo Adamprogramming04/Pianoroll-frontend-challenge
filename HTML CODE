@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Piano Roll Frontend</title>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="piano-roll" data-id="1">Piano Roll 1</div>
+            <div class="piano-roll" data-id="2">Piano Roll 2</div>
+            <!-- Add more Piano Roll elements here -->
+        </div>
+        <div class="main-piano-roll">
+            <!-- Main Piano Roll content here -->
+        </div>
+        <div class="list-display">
+            <!-- Vertical list display content here -->
+        </div>
+    </div>
+    <div class="selection-overlay"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
